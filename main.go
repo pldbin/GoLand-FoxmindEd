@@ -6,3 +6,5 @@ func main() {
 	var w int = 33333
 	fmt.Println(w)
 }
+
+//test
