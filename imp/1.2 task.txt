@@ -1,0 +1,33 @@
+1.2 Іmplement minimum and maximum values
+Completion requirements
+To do: Receive a grade
+
+Learning Objectives:
+Practice how to work with arr, for or range, min, max
+
+Identify how Golang handles basic types
+
+Instruction:
+Read Golang documentation about how to implement min and max values.
+
+Task:
+
+Given the array of five integers.
+
+Find maximum and minimum possible sum that can be calculated by summing precisely 4 of 5 elements of the array.
+
+Print the corresponding values to stdout in "minimum: x, maximum: y."
+
+Write unit tests to check if your code works correctly with different arrays (at least five data sets). For tests, use library testify (https://github.com/stretchr/testify)
+
+
+
+*Try to implement it without sort()
+
+
+----------------------------------------------
+require.Equal(t, expectMin, min)
+t - це той аргумент, який ми передаємо в кожен тест, щоб гошка розуміла що то тести
+expectMin - другим аргументом йде значення яке ми очікуємо отримати
+min - третє значення - це те значення, яке ми отримали в данному тесті і яке ми хочемо перевірити
+-----------------------------------------------
