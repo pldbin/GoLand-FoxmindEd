@@ -1,4 +1,4 @@
-package implementminimumandmaximumvalues
+package imp
 
 import (
 	"github.com/stretchr/testify/require"
