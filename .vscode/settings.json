@@ -2,6 +2,7 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "aiXcoder.showTrayIcon": true,
     "cSpell.words": [
-        "foxminded"
+        "foxminded",
+        "worktime"
     ]
 }
