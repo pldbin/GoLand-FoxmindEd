@@ -1,4 +1,4 @@
-package writehelloworld
+package __1_writehelloworld
 
 import (
 	"fmt"
