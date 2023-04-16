@@ -1,4 +1,4 @@
-package worktime
+package __3_worktime
 
 import (
 	"fmt"

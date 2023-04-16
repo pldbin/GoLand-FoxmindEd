@@ -1,7 +1,7 @@
-package worktime_test
+package __3_worktime_test
 
 import (
-	"foxminded/worktime"
+	"foxminded/1.3_worktime"
 	"testing"
 
 	"github.com/stretchr/testify/require"
@@ -42,7 +42,7 @@ func TestWorkTime1(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			//t.Parallel() //так ... паралельно
-			gotTime1, gotTime2, err := worktime.WorkTime(tt.testValue) //WorkTime(tt.testValue)
+			gotTime1, gotTime2, err := __3_worktime.WorkTime(tt.testValue) //WorkTime(tt.testValue)
 			if err != nil {
 				require.Equal(t, tt.expectErrMessage, err.Error())
 			} else {
