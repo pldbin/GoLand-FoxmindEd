@@ -1,18 +1,12 @@
 package main
 
 import (
-	"About_me_Bot/add"
-	"About_me_Bot/config"
-	"log"
+	"GoLand-FoxmindEd/app"
+	log "github.com/sirupsen/logrus"
 )
 
 func main() {
-	conf, err := config.NewConfig()
-	if err != nil {
-		log.Fatalf("Couldn't read config, error: '%v'", err)
-	}
-
-	if err := add.Add(conf); err != nil {
-		log.Fatalf("Error: '%v'\n", err)
+	if err := app.Run(); err != nil {
+		log.Fatalf("Run(). Error: '%v'", err)
 	}
 }

@@ -1,0 +1,24 @@
+2.2 Add right logging
+Completion requirements
+ Done: Receive a grade
+Learning Objectives:
+
+Learn how to use logging
+
+Research JSON
+
+Task:
+
+This task doesn't have a design phase, because it is a tech task, not a user story.
+
+Remove from your bot fmt.Println if you used it.
+
+Add logger one of 
+
+https://github.com/sirupsen/logrus
+
+https://github.com/rs/zerolog
+
+https://github.com/phuslu/log
+
+Add different settings for the logger to the .env file and read it from there

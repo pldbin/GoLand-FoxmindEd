@@ -1,11 +1,10 @@
-package add
+package bot
 
 import (
-	"About_me_Bot/config"
+	"GoLand-FoxmindEd/config"
 	"fmt"
-	"log"
-
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	"log"
 )
 
 const (
