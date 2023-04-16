@@ -1,4 +1,4 @@
-package imp
+package __2_imp
 
 import (
 	"testing"
