@@ -1,7 +1,7 @@
 package add
 
 import (
-	"About_me_Bot/config"
+	"GoLand-FoxmindEd/config"
 	"fmt"
 	"log"
 

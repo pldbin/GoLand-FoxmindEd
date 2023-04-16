@@ -1,8 +1,8 @@
 package main
 
 import (
-	"About_me_Bot/add"
-	"About_me_Bot/config"
+	"GoLand-FoxmindEd/add"
+	"GoLand-FoxmindEd/config"
 	"log"
 )
 
