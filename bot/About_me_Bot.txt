@@ -1,0 +1,52 @@
+Build a Telegram Bot in Go
+------------------------------
+Learning Objectives:
+Learn how to register the telegram bot with the bot father
+Repeat how to store secrets at environment variables
+Create a .env file and read it
+
+Task: 2.1
+Set secret environment variables to .env file
+Create config with environment variables and read from the .env file https://github.com/caarlos0/env
+Create a telegram bot that supports these commands:
+/about – provides short info about you
+/links – provides a list of your social links (GitHub, Linkedin, etc)
+/start and /help – shows a list of commands with reply markup
+During the design, phase prepares about text and link list.
+--------------------------------
+Learning Objectives:
+Learn how to use logging
+Research JSON
+
+Task: 2.2
+This task doesn't have a design phase, because it is a tech task, not a user story.
+Remove from your bot fmt.Println if you used it.
+Add logger one of
+https://github.com/sirupsen/logrus
+https://github.com/rs/zerolog
+https://github.com/phuslu/log
+Add different settings for the logger to the .env file and read it from there
+---------------------------------
+Learning Objectives:
+Learn how to integrate external API with telegram bot
+Discover how the to teach bot works with commands arguments
+Discover how to use reply markup
+Instruction
+Check https://www.abstractapi.com/holidays-api. It will be used as a data provider.
+Read the documentation about https://core.telegram.org/bots/api#replykeyboardmarkup
+
+Task: 2.3
+Create a telegram bot that on /start provides a reply keyboard with flags of 4-8 countries.
+When the user presses the flag it should provide what holiday is today in this country.
+---------------------------------
+Learning Objectives:
+Learn how to handle custom message types from users without command
+Learn how to format messages
+Instruction
+Check https://openweathermap.org/api. It will be used as a data provider
+If you didn't format messages in previous tasks it is time to the right time to learn it.
+Check https://core.telegram.org/api/entities.
+
+Task: 2.4
+Create a telegram bot that on a message with geolocation sends a weather forecast to user.
+You have freedom in the message format, but make it eloquent.
